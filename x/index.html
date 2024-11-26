@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto", sans-serif;
+            scrollbar-color: #000000 #000000;
+            
+        }
+    </style>
+</head>
+
+<body class="bg-black flex align-middle justify-center">
+    <div class="sec1 w-[16vw] h-[100vh] fixed  left-[13%] ">
+        <div class="op">
+            <ul>
+                <li
+                    class="hover:bg-[#202327] p-2 rounded-full w-[3vw]  text-white flex items-center gap-5 font-semibold text-xl mt-1 mb-4">
+                    <img class="invert w-8" src="svg/logo.svg" alt="">
+                </li>
+                <li
+                    class="hover:bg-[#202327] p-2 rounded-full w-[8vw]  text-white flex items-center gap-5 font-medium text-lg mt-1 mb-2">
+                    <img class="invert w-7" src="svg/home.svg" alt="">Home
+                </li>
+                <li
+                    class="hover:bg-[#202327] p-2 rounded-full w-[9vw]  text-white flex items-center gap-5 font-medium text-lg mt-1 mb-2">
+                    <img class="invert w-7" src="svg/search.svg" alt="">Search
+                </li>
+                <li
+                    class="hover:bg-[#202327] p-2 rounded-full w-[12vw] text-white flex items-center gap-5 font-medium text-lg mt-1 mb-2">
+                    <img class="invert w-7" src="svg/bell.svg" alt="">Notification
+                </li>
+                <li
+                    class="hover:bg-[#202327] p-2 rounded-full w-[10vw] text-white flex items-center gap-5 font-medium text-lg mt-1 mb-2">
+                    <img class="invert w-7" src="svg/mail.svg" alt="">Message
+                </li>
+                <li
+                    class="hover:bg-[#202327] p-2 rounded-full w-[8vw]  text-white flex items-center gap-5 font-medium text-lg mt-1 mb-2">
+                    <img class="invert w-7" src="svg/grok.svg" alt="">Grok
+                </li>
+                <li
+                    class="hover:bg-[#202327] p-2 rounded-full w-[8vw]  text-white flex items-center gap-5 font-medium text-lg mt-1 mb-2">
+                    <img class="invert w-7" src="svg/list.svg" alt="">Lists
+                </li>
+                <li
+                    class="hover:bg-[#202327] p-2 rounded-full w-[10vw] text-white flex items-center gap-5 font-medium text-lg mt-1 mb-2">
+                    <img class="invert w-7" src="svg/premium.svg" alt="">Premium
+                </li>
+                <li
+                    class="hover:bg-[#202327] p-2 rounded-full w-[9vw]  text-white flex items-center gap-5 font-medium text-lg mt-1 mb-2">
+                    <img class="invert w-7" src="svg/profile.svg" alt="">Profile
+                </li>
+                <li
+                    class="hover:bg-[#202327] p-2 rounded-full w-[8vw]  text-white flex items-center gap-5 font-medium text-lg mt-1 mb-2">
+                    <img class="invert w-7" src="svg/more.svg" alt="">More
+                </li>
+            </ul>
+        </div>
+        <div class="">
+            <button
+                class="font-semibold text-white text-xl bg-[#1d9bf0] px-24 py-3 mt-3 mr-8 rounded-full">Post</button>
+            <div
+                class="hover:bg-[#202327] p-2 rounded-full w-[15vw] text-white flex items-center gap-4 font-semibold text-sm mt-6 mb-2 justify-between">
+                <div class="flex flex-row gap-2"><img class=" w-12 rounded-full" src="svg/tatee.jpg" alt="">
+                    <div>
+                        <p>Andrew Tate</p>
+                        <p class="font-light">@CobraTate</p>
+                    </div>
+                </div> <img class=" invert w-8 rounded-full" src="svg/dots.svg" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="sec2  w-[38vw] h-[100] border-x-gray-600 border-[1px] border-y-0 ">
+        <div class="navbarr w-[100%] sticky top-0 bg-transparent backdrop-blur">
+            <div class="text-white flex gap-1 ">
+                <p class="hover:bg-[#202327] h-[7vh] w-[100vw] justify-center flex items-center">For You</p>
+                <p class="hover:bg-[#202327] h-[7vh] w-[100vw] justify-center flex items-center text-gray-400">Following
+                </p>
+                <img class=" rounded-full w-8 p-1 invert" src="svg/setting.svg" alt="">
+            </div>
+            <div class="border-[1px]  border-y-gray-600"></div>
+        </div>
+
+        <div class="tweet flex flex-col justify-start items-start">
+            <div class="flex gap-3 justify-center items-center p-5 "><img class=" w-12 rounded-full" src="svg/tatee.jpg"
+                    alt=""> <input
+                    class="outline-none text-white border-none bg-transparent w-72 h-10 placeholder:text-2xl placeholder:text-gray-500 placeholder:font-light"
+                    placeholder="Whats is Happening?!" type="text" name="" id=""></div>
+        </div>
+        <div>
+            <div class="flex justify-around gap-36 items-center">
+                <ul class="flex gap-3 p-3 justify-between">
+                    <li><img src="svg/albumn.svg" class="w-5" alt=""></li>
+                    <li><img src="svg/gif.svg" class="w-5" alt=""></li>
+                    <li><img src="svg/2line.svg" class="w-5" alt=""></li>
+                    <li><img src="svg/smile.svg" class="w-5" alt=""></li>
+                    <li><img src="svg/cal.svg" class="w-5" alt=""></li>
+                    <li><img src="svg/location.svg" class="w-5" alt=""></li>
+                </ul>
+                <button class=" flex justify-between font-semibold text-white text-sm bg-[#1d9bf0] px-6 py-2 m-3 mr-3  rounded-full">Post</button>
+            </div>
+            <div class="border-[1px] border-y-gray-600"></div>
+            <div class="crd hover:bg-[#202327]">
+                <div class=" flex justify-start items-start">
+                    <img class="mt-5 ml-2 w-12 rounded-full" src="svg/tatee.jpg" alt="">
+                    <div
+                        class="flex flex-wrap gap-4  p-5 hover:bg-[#202327] p w-[40vw] text-white  font-semibold text-sm ">
+                        <div>
+                            <div class="flex gap-1 mb-2">
+                                <p class="w-28 flex items-center gap-2">Andrew Tate <img class="w-4"
+                                        src="svg/bluetick.svg" alt=""></p>
+                                <p class="font-light text-gray-400">@CobraTate</p>
+                                <p class="font-light">.</p>
+
+                                <p class="font-light text-gray-400">March 6 </p>
+                            </div>
+                            <div class=" text-white flex font-medium text-sm flex-wrap w-96">What do you guys think is
+                                actually going on with Ryan Garcia? Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Error, praesentium.</div>
+                        </div>
+                        <div class="post">
+                            <img class="pr-2 rounded-xl" src="svg/car.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="bot">
+                    <ul class="text-gray-800 flex ml-4 w-[100%] justify-around">
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p1.svg"
+                                alt="">110</li>
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p2.svg"
+                                alt="">423</li>
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p3.svg"
+                                alt="">543</li>
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p4.svg"
+                                alt="">154</li>
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p5.svg"
+                                alt="">432</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-[1px] border-y-gray-600"></div>
+
+
+            <div class="crd hover:bg-[#202327]">
+                <div class=" flex justify-start items-start">
+                    <img class="mt-5 ml-2 w-12 rounded-full" src="svg/me.jpg" alt="">
+                    <div
+                        class="flex flex-wrap gap-4  p-5 hover:bg-[#202327] p w-[40vw] text-white  font-semibold text-sm ">
+                        <div>
+                            <div class="flex gap-1 mb-2">
+                                <p class="w-28 flex items-center gap-2">Rahul Gandhi<img class="w-4"
+                                        src="svg/bluetick.svg" alt=""></p>
+                                <p class="font-light text-gray-400">@RahulGandhi</p>
+                                <p class="font-light">.</p>
+
+                                <p class="font-light text-gray-400">March 6 </p>
+                            </div>
+                            <div class=" text-white flex font-medium text-sm flex-wrap w-96">What do you guys think is
+                                actually going on with Ryan Garcia? Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Error, praesentium.</div>
+                        </div>
+                        <div class="post">
+                            <img class="pr-2 rounded-xl" src="svg/battt.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="bot">
+                    <ul class="text-gray-800 flex ml-4 w-[100%] justify-around">
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p1.svg"
+                                alt="">110</li>
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p2.svg"
+                                alt="">423</li>
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p3.svg"
+                                alt="">543</li>
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p4.svg"
+                                alt="">154</li>
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p5.svg"
+                                alt="">432</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-[1px] border-y-gray-600"></div>
+
+
+            <div class="crd hover:bg-[#202327]">
+                <div class=" flex justify-start items-start">
+                    <img class="mt-5 ml-2 w-12 rounded-full" src="svg/modi.jpg" alt="">
+                    <div
+                        class="flex flex-wrap gap-4  p-5 hover:bg-[#202327] p w-[40vw] text-white  font-semibold text-sm ">
+                        <div>
+                            <div class="flex gap-1 mb-2">
+                                <p class="w-28 flex items-center gap-2">NarendraModi<img class="w-4"
+                                        src="svg/bluetick.svg" alt=""></p>
+                                <p class="font-light text-gray-400">@Modi</p>
+                                <p class="font-light">.</p>
+
+                                <p class="font-light text-gray-400">March 6 </p>
+                            </div>
+                            <div class=" text-white flex font-medium text-sm flex-wrap w-96">Love you Meloni Tumhare
+                                Melon Ke Liye Me kuch Bhi Karumga "Mai Hameshs Tumhe Chahunga" .</div>
+                        </div>
+                        <div class="post">
+                            <img class="pr-2 rounded-xl" src="svg/meloni.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="bot">
+                    <ul class="text-gray-800 flex ml-4 w-[100%] justify-around">
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p1.svg"
+                                alt="">110</li>
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p2.svg"
+                                alt="">423</li>
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p3.svg"
+                                alt="">1.35M</li>
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p4.svg"
+                                alt="">154</li>
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p5.svg"
+                                alt="">432</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-[1px] border-y-gray-600"></div>
+
+
+            <div class="crd hover:bg-[#202327] ">
+                <div class=" flex justify-start items-start">
+                    <img class="mt-5 ml-2 w-12 rounded-full" src="svg/tatee.jpg" alt="">
+                    <div
+                        class="flex flex-wrap gap-4  p-5 hover:bg-[#202327] p w-[40vw] text-white  font-semibold text-sm ">
+                        <div>
+                            <div class="flex gap-1 mb-2">
+                                <p class="w-28 flex items-center gap-2">Andrew Tate <img class="w-4"
+                                        src="svg/bluetick.svg" alt=""></p>
+                                <p class="font-light text-gray-400">@CobraTate</p>
+                                <p class="font-light">.</p>
+
+                                <p class="font-light text-gray-400">March 6 </p>
+                            </div>
+                            <div class=" text-white flex font-medium text-sm flex-wrap w-96">What do you guys think is
+                                actually going on with Ryan Garcia? Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit. Error, praesentium.</div>
+                        </div>
+                        <div class="post">
+                            <img class="pr-2 rounded-xl" src="svg/andrew.jpeg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="bot">
+                    <ul class="text-gray-800 flex ml-4 w-[100%] justify-around">
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p1.svg"
+                                alt="">110</li>
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p2.svg"
+                                alt="">423</li>
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p3.svg"
+                                alt="">543</li>
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p4.svg"
+                                alt="">154</li>
+                        <li class="flex items-center text-gray-500 text-xs "><img class="w-4 mr-1 m-3" src="svg/p5.svg"
+                                alt="">432</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-[1px] border-y-gray-600"></div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="sec3 w-[23vw] h-[100vh] fixed right-[7%] bg-black overflow-scroll overflow-x-hidden ">
+        <div class="navbarr w-[100%] sticky top-0 z-50 bg-transparent p-2 backdrop-blur">
+            <input
+                class="bg-[#16181c] placeholder:text-gray-400 pl-10 placeholder:p-1 text-white placeholder:text-sm placeholder:font-light w-[90%] rounded-full h-12 outline-none border-none "
+                type="text" placeholder="Search">
+            <img src="svg/sarchgr.svg" class="w-4 absolute left-6 top-6" alt="">
+        </div>
+
+        <div class="sec w-[85%] bg-[#16181c] h-[5   0vh] rounded-lg mt-3 ml-3">
+<div class="head text-white font-bold text-xl p-3">You Might Like</div>
+
+
+
+<div class="hover:bg-[#202327]  w-[100%] p-3  text-white flex items-center font-semibold text-sm justify-between">
+<div class="flex flex-row gap-2 "><img class=" w-14 rounded-full" src="svg/modi.jpg" alt="">
+    <div>
+        <p>NarendraModi</p>
+        <p class="font-light">@modi</p>
+    </div>
+    
+</div> 
+<button class=" flex justify-between font-semibold text-black text-sm bg-white px-6 py-2 m-3 mr-3  rounded-full">Follow</button>
+</div>
+
+
+<div class="hover:bg-[#202327]  w-[100%] p-3  text-white flex items-center font-semibold text-sm justify-between">
+    <div class="flex flex-row gap-2 "><img class=" w-14 rounded-full" src="svg/me.jpg" alt="">
+        <div>
+            <p>RahulGandhi</p>
+            <p class="font-light">@RahulGandhi</p>
+        </div>
+        
+    </div> 
+    <button class=" flex justify-between font-semibold text-black text-sm bg-white px-6 py-2 m-3 mr-3  rounded-full">Follow</button>
+    </div>
+
+    
+
+    <div class="hover:bg-[#202327]  w-[100%] p-3  text-white flex items-center font-semibold text-sm justify-between">
+        <div class="flex flex-row gap-2 "><img class=" w-14 rounded-full" src="svg/spped.jpg" alt="">
+            <div>
+                <p>Speed</p>
+                <p class="font-light">@IshowSpeed</p>
+            </div>
+            
+        </div> 
+        <button class=" flex justify-between font-semibold text-black text-sm bg-white px-6 py-2 m-3 mr-3  rounded-full">Follow</button>
+        </div>
+
+        
+
+
+        </div>
+
+
+        
+        <div class="sec w-[85%] bg-[#16181c] h-[5   0vh] rounded-lg mt-3 ml-3">
+            <div class="head text-white font-bold text-xl p-3">What's Happening</div>
+            
+            <div class="hover:bg-[#202327] p-2  w-[100%] text-white flex items-center gap-4 font-semibold text-sm mt-1 mb-2 justify-between">
+                <div class="flex flex-row gap-2">
+                    <div>
+                        <p class="font-light text-sm text-gray-500">Trending On X</p>
+                        <p class="text-lg">#OweshIsBest</p>
+                        <p class="font-light text-xs text-gray-500">2.3B posts</p>
+                    </div>
+                </div> 
+                <img class=" invert w-8 rounded-full" src="svg/dots.svg" alt="">
+            </div> 
+            
+            <div class="hover:bg-[#202327] p-2  w-[100%] text-white flex items-center gap-4 font-semibold text-sm mt-1 mb-2 justify-between">
+            <div class="flex flex-row gap-2">
+                <div>
+                    <p class="font-light text-sm text-gray-500">Trending In India</p>
+                    <p class="text-lg">#DoSeggsEveryDay</p>
+                    <p class="font-light text-xs text-gray-500">79.3k posts</p>
+                </div>
+            </div> 
+            <img class=" invert w-8 rounded-full" src="svg/dots.svg" alt="">
+        </div> 
+    
+        <div class="hover:bg-[#202327] p-2  w-[100%] text-white flex items-center gap-4 font-semibold text-sm mt-1 mb-2 justify-between">
+            <div class="flex flex-row gap-2">
+                <div>
+                    <p class="font-light text-sm text-gray-500">Trending In India</p>
+                    <p class="text-lg">#GermanGirlHotPics</p>
+                    <p class="font-light text-xs text-gray-500">79.3M posts</p>
+                </div>
+            </div> 
+            <img class=" invert w-8 rounded-full" src="svg/dots.svg" alt="">
+        </div>                
+            
+            
+                    </div>
+    </div>
+
+
+
+</body>
+
+</html>
