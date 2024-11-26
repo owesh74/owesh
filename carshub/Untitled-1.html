@@ -1,0 +1,28 @@
+<style>
+    .arrow-bar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  align-items: flex-end;
+}
+
+.arrow-bar > div {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: blue;
+}
+
+.arrow-bar .arrow {
+  grid-column: span 2;
+  grid-row: span 3;
+  background-color: white;
+}
+
+</style>
+<div class="arrow-bar">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div class="arrow"></div>
+</div>
