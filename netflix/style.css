@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700;800&family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: black;
+}
+
+.upper {
+    height: 96vh;
+    background-image: url("mainimg.jpg");
+    position: relative;
+    background-position: 45% 65%;
+}
+
+.upper .box {
+    height: 96vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 750px;
+}
+
+
+.left1 {
+    margin-top: 20px;
+
+}
+
+.left1>img {
+    color: red;
+    height: 40px;
+    position: relative;
+    z-index: 10;
+
+}
+
+.custom-select {}
+
+.custom-select>select {
+    width: 110px;
+    color: white;
+    font-size: large;
+    background-color: rgba(255, 255, 255, 0);
+    height: 27px;
+}
+
+button {
+    height: 35px;
+    width: 120px;
+    position: relative;
+    z-index: 10;
+    margin: 20px 10px;
+    background-color: rgba(255, 255, 255, 0.019);
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+div.right1 {
+    margin-bottom: auto;
+}
+
+button:nth-child(2) {
+    background-color: red;
+    border: none;
+    width: 80px;
+}
+
+.content {}
+
+.content>.line1>P {
+    margin-top: 200px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 300%;
+    position: relative;
+    z-index: 10;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.content>.line2>P {
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    font-size: 150%;
+    position: relative;
+    z-index: 10;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.content>.line3>P {
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    font-size: 140%;
+    position: relative;
+    z-index: 10;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.content>.line4>input {
+    font-family: 'Roboto', sans-serif;
+
+    margin-top: 15px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background-color: rgba(36, 36, 36, 0.53);
+    font-weight: 400;
+    font-size: 150%;
+    position: relative;
+    z-index: 10;
+    height: 54px;
+    width: 360px;
+    border: solid rgb(83, 83, 83) 2px;
+
+}
+
+.content>.line4>input::placeholder {
+    padding: 5%;
+
+    color: rgb(160, 157, 157);
+    font-size: medium;
+}
+
+.content>.line4 {
+    margin-left: 459px;
+}
+
+.content>.line4>button {
+    width: 200px;
+    height: 54px;
+    font-size: 25px;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.divide {
+    height: 8px;
+    background-color: rgb(41, 41, 41);
+
+}
+
+.lower {
+    height: 570px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: -20px;
+}
+
+.left2 {
+    background-color: black;
+
+}
+
+
+.left2>.line1>P {
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 300%;
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.line2>P {
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    font-size: 150%;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.right2 {
+    position: relative;
+}
+
+.right2>img {
+    position: relative;
+    z-index: 10;
+}
+
+
+
+.right2>video {
+    position: absolute;
+    right: 79px;
+    top: 98px;
+
+}
+
+.divide1 {
+    height: 8px;
+    background-color: rgb(41, 41, 41);
+}
+
+.right3>img {
+    position: relative;
+    z-index: 10;
+}
+
+.boxx {
+    height: 100px;
+    width: 320px;
+    border-radius: 10px;
+    border: solid rgb(113, 113, 113) 1px;
+    position: absolute;
+    top: 228%;
+    right: 902px;
+    background-color: black;
+}
+
+.right3>.line1>p {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 300%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.line11>p {
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 300%;
+    margin-bottom: 35px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.right3 {
+    position: relative;
+}
+
+.right3>video {
+    position: absolute;
+    top: 37px;
+    width: 63%;
+    right: 115px;
+
+}
+
+.line12>P {
+    margin-top: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+    font-size: 150%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#loader {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    z-index: 100;
+    transition: all ease 0.8s;
+    top: 0%;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.loadani {
+    font-size: 4vw;
+    color: transparent;
+    background: linear-gradient(to right, rgb(178, 0, 0), rgb(58, 0, 0));
+    -webkit-background-clip: text;
+    position: absolute;
+    opacity: 0;
+    animation: loads 1s linear 1s;
+
+}
+
+.loadani:nth-child(2) {
+    animation-delay: 2s;
+}
+
+.loadani:nth-child(3) {
+    animation-delay: 3s;
+}
+
+@keyframes loads {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0 ;
+    }
+}
