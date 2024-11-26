@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.papa {
+    display: flex;
+}
+
+.main {
+    background-color: black;
+    width: 33vh;
+    height: 100vh;
+    justify-content: center;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+.d {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 70px 20px 20px;
+}
+
+.d1 {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 19px 40px 19px 10px;
+    margin: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 100;
+    display: flex;
+    gap: 10%;
+    align-items: baseline;
+}
+.a:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+    background-color: grey;
+}
+.b1 {
+    color: white;
+    background-color: rgb(35, 35, 35);
+    margin-top: 60px;
+    margin-left: 10px;
+    padding: 16px 70px;
+    border: 1px solid rgb(44, 43, 43);
+    border-radius: 60px;
+}
+.b:hover{
+    transform: scale(1.05);
+    transition: 0.1s;
+    background-color: rgb(90, 89, 89);
+}
+
+.p1 {
+    color: rgb(162, 161, 161);
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+
+.main2 {
+    background: linear-gradient(transparent,black,black);
+    /* background-color: transparent; */
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.inp1 {
+    padding: 10px 270px 10px 10px;
+    font-size: 16px;
+    border:none;
+    border-radius: 8px;
+    margin: 15px 90px;
+    background-color: rgb(55, 54, 54);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+input[type="text"]{
+    border: none;
+}
+.b2{
+    color: rgb(0, 0, 0);
+    padding: 11px 20px;
+    border: 1px solid black;
+    border-radius:  30px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 450px;
+}
+.b2:hover{
+    transform: scale(1.05);
+    transition: 0.1s;
+    background-color: rgb(118, 109, 109);
+    color: white;
+    border: 1px solid rgb(255, 255, 255);
+}
+.ul1 {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.list {
+    color: white;
+    list-style: none;
+    border: 1px solid rgb(35, 34, 34);
+    border-radius: 9px;
+    padding: 8px 12px;
+    margin: 10px;
+    background-color: rgb(60, 59, 59);
+}
+.li:hover{
+    background-color: rgb(119, 118, 118);
+    transition: all ease 0.5s;
+    transform: scale(1.07);
+    border: none;
+}
+.d2 {
+    color: rgb(93, 91, 91);
+    margin-left: 92px;
+    margin-top: 38px;
+    font-size: 17px;
+}
+
+.d3 {
+    color: rgb(163, 161, 161);
+    margin-left: 92px;
+    margin-top: 5px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.d4 {
+    margin: 20px;
+}
+
+.dd1 {
+    color: white;
+    margin-left: 92px;
+}
+
+.dd2 {
+    color: grey;
+    margin-left: 92px;
+}
+
+.d4 {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 80px;
+}
+
+.d5 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 10px 10px;
+}
+
+.dd5 {
+    color: rgb(157, 157, 157);
+    margin: 4px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.img1 {
+object-fit: cover;
+    border: none;
+    border-radius: 14px;
+    margin-bottom: 20px;
+}
+
+.d6 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.dd6 {
+    color: rgb(157, 157, 157);
+    margin: 4px;
+    padding: 3px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img2 {
+    border: 1px solid black;
+    border-radius: 100px;
+    margin: 10px;
+    object-fit: cover;
+}
+.joel:hover{
+transition: 0.2s;   
+transform: scale(1.05);
+border: none;
+}
+i{
+    
+    font-size: 1.5em;
+    font-weight: 100;
+}
+.i2 {
+    font-size: .9em;
+    font-weight: 50;
+}
+
+.bgimg{
+    position: absolute;
+    z-index: -10;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+    filter: brightness(0.3);
+
+}
